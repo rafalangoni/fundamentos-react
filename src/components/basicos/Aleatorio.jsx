@@ -5,7 +5,7 @@ const Aleatorio = ({min, max}) => {
   
     return (
     <>
-      <h2>O número aleatório é {numeroAleatorio}</h2>
+      <p>O número aleatório é <strong>{numeroAleatorio}</strong></p>
     </>
   );
 };
