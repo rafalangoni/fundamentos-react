@@ -1,7 +1,8 @@
 import React from "react";
 
 const Aleatorio = ({min, max}) => {
-  const numeroAleatorio = Math.random() * (max - min) - min;
+
+  const numeroAleatorio = parseInt(Math.random() * (max - min) - min);
   
     return (
     <>
