@@ -4,7 +4,7 @@ import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
 import "./components/layout/Card.css";
 import "../src/index.css";
-import './App.css'
+import './App.css';
 
 export default function App() {
   return (
