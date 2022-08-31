@@ -3,9 +3,11 @@ import "./Card.css";
 
 const Card = (props) => {
   const cardStyle = {
-    backgroundColor: props.color || "EC7272",
-    borderColor: props.color || "EC7272",
+    backgroundColor: props.cor,
+    borderColor: props.cor,
   };
+
+  console.log(cardStyle);
 
   return (
     <div className="card" style={cardStyle}>

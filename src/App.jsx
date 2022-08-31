@@ -11,11 +11,11 @@ export default function App() {
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
-        <Card titulo="Desafio Aleatório" color="E3C770">
+        <Card titulo="Desafio Aleatório" cor="#E3C770">
           <Aleatorio min={1} max={10}/>
         </Card>
 
-        <Card titulo="Componentes com parâmetros" color="FFAE6D">
+        <Card titulo="Componentes com parâmetros" cor="#FFAE6D">
           <ComParametros id="Segundo Componente" aluno="Rafael" nota={6}/>
         </Card>
       </div>
