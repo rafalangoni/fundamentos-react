@@ -19,10 +19,10 @@ export default function App() {
         </Card>
 
         <Card titulo="Componentes filhos" cor="#7FBCD2">
-          <Familia sobrenome='Langoni'>
+          <Familia sobrenome='Sobrenome'>
             <MembroFamilia nome="Rafael" />
-            <MembroFamilia nome="Davi" />
-            <MembroFamilia nome="Natalia" />
+            <MembroFamilia nome="João" />
+            <MembroFamilia nome="Pedro" />
           </Familia>
         </Card>
 
