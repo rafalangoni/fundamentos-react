@@ -7,12 +7,17 @@ import "../src/index.css";
 import "./App.css";
 import Familia from "./components/basicos/Familia";
 import MembroFamilia from "./components/basicos/MembroFamilia";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
 
 export default function App() {
   return (
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
+        <Card titulo="Repetição de elementos" cor="#874C62">
+            <ListaAlunos></ListaAlunos>
+        </Card>
+
         <Card titulo="Componentes filhos" cor="#7FBCD2">
           <Familia sobrenome='Langoni'>
             <MembroFamilia nome="Rafael" />

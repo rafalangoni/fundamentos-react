@@ -7,8 +7,6 @@ const Card = (props) => {
     borderColor: props.cor,
   };
 
-  console.log(cardStyle);
-
   return (
     <div className="card" style={cardStyle}>
       <div className="titulo">{props.titulo}</div>
