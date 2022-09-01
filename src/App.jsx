@@ -14,11 +14,11 @@ export default function App() {
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
-        <Card titulo="Repetição de elementos" cor="#874C62">
+        <Card titulo="#04 - Iteração na criação de elementos de elementos" cor="#874C62">
             <ListaAlunos></ListaAlunos>
         </Card>
 
-        <Card titulo="Componentes filhos" cor="#7FBCD2">
+        <Card titulo="#03 - Lidando com Componentes filhos" cor="#7FBCD2">
           <Familia sobrenome='Sobrenome'>
             <MembroFamilia nome="Rafael" />
             <MembroFamilia nome="João" />
@@ -26,7 +26,7 @@ export default function App() {
           </Familia>
         </Card>
 
-        <Card titulo="Desafio Aleatório" cor="#E3C770">
+        <Card titulo="#02 - Desafio número Aleatório" cor="#E3C770">
           <h4>Números mega-sena:</h4>
           <Aleatorio min={1} max={60} />
           <Aleatorio min={1} max={60} />
@@ -36,7 +36,7 @@ export default function App() {
           <Aleatorio min={1} max={60} />
         </Card>
 
-        <Card titulo="Componentes com parâmetros" cor="#FFAE6D">
+        <Card titulo="#01 - Componentes com parâmetros" cor="#FFAE6D">
           <ComParametros id="Segundo Componente" aluno="Rafael" nota={6} />
         </Card>
       </div>
