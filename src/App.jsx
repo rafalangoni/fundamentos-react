@@ -8,12 +8,17 @@ import "./App.css";
 import Familia from "./components/basicos/Familia";
 import MembroFamilia from "./components/basicos/MembroFamilia";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import ListaCompras from "./components/repeticao/ListaCompras";
 
 export default function App() {
   return (
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
+        <Card titulo="#05 - Desafop lista de compras" cor="#E3C770">
+            <ListaCompras/>
+        </Card>
+
         <Card titulo="#04 - Iteração na criação de elementos de elementos" cor="#874C62">
             <ListaAlunos></ListaAlunos>
         </Card>
