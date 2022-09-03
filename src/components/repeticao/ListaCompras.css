@@ -1,0 +1,13 @@
+.tabela-lista-compras{
+    width: 100%;
+}
+
+.tabela-lista-compras--thead{
+    background-color: blue;
+    color: white;
+}
+
+.tabela-lista-compras tbody tr{
+    background-color: #FECD70;
+    color: #000;
+}
