@@ -15,7 +15,7 @@ export default function App() {
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
-        <Card titulo="#05 - Desafop lista de compras" cor="#E3C770">
+        <Card titulo="#05 - Desafio lista de compras" cor="#E3C770">
             <ListaCompras/>
         </Card>
 

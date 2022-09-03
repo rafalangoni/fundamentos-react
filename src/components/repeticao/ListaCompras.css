@@ -3,11 +3,10 @@
 }
 
 .tabela-lista-compras--thead{
-    background-color: blue;
+    background-color: #7FBCD2;
     color: white;
 }
 
 .tabela-lista-compras tbody tr{
-    background-color: #FECD70;
     color: #000;
 }
