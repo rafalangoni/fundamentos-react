@@ -1,5 +1,5 @@
 const If = (props) => {
-    if(props.test){
+    if(props.parametro){
         return props.children
     }else{
         return false

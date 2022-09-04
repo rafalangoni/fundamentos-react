@@ -5,8 +5,8 @@ const UsuarioCondicional = (props) => {
   const usuario = props.usuario;
   return (
     <div>
-      <If test={usuario && usuario.nome}>Seja bem-vindo, {usuario.nome}!</If>
-      <If test={!usuario || !usuario.nome}>Seja bem-vindo, Anônimo...</If>
+      <If parametro={usuario && usuario.nome}>Seja bem-vindo, {usuario.nome}!</If>
+      <If parametro={!usuario || !usuario.nome}>Seja bem-vindo, Anônimo...</If>
     </div>
   );
 };
