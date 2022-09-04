@@ -9,12 +9,20 @@ import Familia from "./components/basicos/Familia";
 import MembroFamilia from "./components/basicos/MembroFamilia";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import ListaCompras from "./components/repeticao/ListaCompras";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioCondicional from "./components/condicional/UsuarioCondicional";
 
 export default function App() {
   return (
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
+        <Card titulo="#06 - Renderização Condicional" cor="#EC7272">
+            <ParOuImpar valor={20}/>
+            <UsuarioCondicional usuario={{nome: 'Rafael'}}/>
+            <UsuarioCondicional usuario={{email: 'Rafael'}}/>
+        </Card>
+
         <Card titulo="#05 - Desafio lista de compras" cor="#E3C770">
             <ListaCompras/>
         </Card>

@@ -6,7 +6,7 @@ const ListaCompras = () => {
   function criaLinha() {
     return compras.map((item) => {
       return (
-        <tr key={item.id} style={item.id % 2 === 0 ? {backgroundColor: '#E1FFEE'} : {backgroundColor: '#A5F1E9'}}>
+        <tr key={item.id} className={item.id % 2 === 0 ? 'par' : 'impar'}>
           <td>{item.id}</td>
           <td>{item.produto}</td>
           <td>R${item.preco.toFixed(2)}</td>

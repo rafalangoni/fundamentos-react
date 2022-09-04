@@ -10,3 +10,10 @@
 .tabela-lista-compras tbody tr{
     color: #000;
 }
+
+.par {
+    background-color: #E1FFEE
+}
+.impar {
+    background-color: #A5F1E9
+}
