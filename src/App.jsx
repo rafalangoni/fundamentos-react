@@ -11,12 +11,22 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import ListaCompras from "./components/repeticao/ListaCompras";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioCondicional from "./components/condicional/UsuarioCondicional";
+import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 
 export default function App() {
   return (
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
+        <Card titulo="#078- Comunicação Indireta entre componente pai e filho" cor="#7FB77E">
+            <IndiretaPai/>
+        </Card>
+
+        <Card titulo="#07 - Comunicação Direta entre componente pai e filho" cor="#7FB77E">
+            <DiretaPai/>
+        </Card>
+
         <Card titulo="#06 - Renderização Condicional" cor="#EC7272">
             <ParOuImpar valor={20}/>
             <UsuarioCondicional usuario={{nome: 'Rafael'}}/>
