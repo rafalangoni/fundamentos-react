@@ -19,7 +19,7 @@ export default function App() {
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
-        <Card titulo="#078- Comunicação Indireta entre componente pai e filho" cor="#7FB77E">
+        <Card titulo="#08- Comunicação Indireta entre componente pai e filho" cor="#ECC5FB">
             <IndiretaPai/>
         </Card>
 
