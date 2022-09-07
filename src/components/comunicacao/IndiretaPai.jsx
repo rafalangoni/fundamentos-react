@@ -22,6 +22,12 @@ const IndiretaPai = () => {
       <div>
         <IndiretaFilho quandoClicar={fornecerInformacoes} />
       </div>
+      <div>
+        <p>Obs.: Nessa caso, o componente pai passa via props uma função a ser executada no componente filho.
+          Dessa forma, quando a função for executada no componente filho, o filho passará os parâmetros da 
+          execução de volta pro pai. É o equivalente ao filho passando props pro pai.
+        </p>
+      </div>
     </div>
   );
 };
