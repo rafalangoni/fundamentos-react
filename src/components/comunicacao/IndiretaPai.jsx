@@ -7,9 +7,9 @@ const IndiretaPai = () => {
   const [nerd, setNerd] = useState(false);
 
   function fornecerInformacoes(nome, idade, nerd) {
-    setNome(nome)
-    setIdade(idade)
-    setNerd(nerd)
+    setNome(nome);
+    setIdade(idade);
+    setNerd(nerd);
   }
 
   return (
