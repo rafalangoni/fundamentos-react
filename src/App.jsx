@@ -13,13 +13,19 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioCondicional from "./components/condicional/UsuarioCondicional";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import ComponenteControlado from "./components/controlado/ComponenteControlado";
 
 export default function App() {
   return (
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
-        <Card titulo="#08- Comunicação Indireta entre componente pai e filho" cor="#ECC5FB">
+
+       <Card titulo="#10- Componente Controlado (input)" cor="#AF0171">
+            <ComponenteControlado/>
+        </Card>
+
+       <Card titulo="#09- Comunicação Indireta entre componente pai e filho" cor="#ECC5FB">
             <IndiretaPai/>
         </Card>
 
