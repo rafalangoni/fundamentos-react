@@ -20,6 +20,7 @@ const Contador = () => {
       </p>
       <button onClick={adicionar}>+</button>
       <button onClick={diminuir}>-</button>
+      <p>Reforçando conceitos de useState</p>
     </div>
   );
 };
