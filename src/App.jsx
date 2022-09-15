@@ -14,12 +14,17 @@ import UsuarioCondicional from "./components/condicional/UsuarioCondicional";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import ComponenteControlado from "./components/controlado/ComponenteControlado";
+import Contador from "./components/contador/Contador";
 
 export default function App() {
   return (
     <>
       <h1>Fundamentos React</h1>
       <div className="cards">
+
+       <Card titulo="#11- Contador" cor="#A1C298">
+            <Contador/>
+        </Card>
 
        <Card titulo="#10- Componente Controlado (input)" cor="#AF0171">
             <ComponenteControlado/>
